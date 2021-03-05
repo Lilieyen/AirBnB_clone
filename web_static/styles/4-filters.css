@@ -15,7 +15,7 @@ section.filters button{
 	width: 20%;
 	border-style: none;
 	border-radius: 4px;
-	margin-right: 30px;
+	vertical-align: 30px;
 	position: absolute;
 }
 section.filters button:hover {
