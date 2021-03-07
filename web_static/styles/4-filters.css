@@ -1,4 +1,4 @@
-.container .filters {
+.filters {
 	background-color: white;
 	height: 70px;
 	width: 100%;
@@ -18,10 +18,8 @@ section.filters button{
 	vertical-align: center;
 	right: 30px;
 	position: absolute;
+
 }
 section.filters button:hover {
 	opacity:0.9;
-}
-
-
-	
+}	

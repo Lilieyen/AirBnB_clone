@@ -20,6 +20,7 @@ button:hover {
     order: 0;
     text-align: left;
     margin-left: 40px;
+    position: relative;
 }
 
 .amenities {
@@ -53,4 +54,40 @@ button {
     font-weight: 400;
     font-size: 12px;
     margin: 0 auto;
+}
+
+.popover {
+    display: none;
+    background-color: #FAFAFA;
+    width: 292px;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    margin-left: -41px;
+    margin-top: 13px;
+    box-sizing: border-box;
+}
+
+.popover li {
+    list-style-type: none;
+}
+
+.popover h2 {
+    margin-bottom: 5px;
+}
+
+.popover ul {
+    margin-top: 5px;
+}
+
+.locations .popover ul {
+    padding-left: 20px;
+}
+
+.locations:hover .popover {
+    display: block;
+    padding-left: 18px;
+}
+
+.amenities:hover .popover {
+    display: block;
 }
